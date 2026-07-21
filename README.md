@@ -33,18 +33,17 @@ The dataset contains product inventory information scraped from Zepto's online g
 
 ### Features
 
-| Column                 | Description                  |
-| ---------------------- | ---------------------------- |
-| sku_id                 | Unique Product ID            |
-| name                   | Product Name                 |
-| category               | Product Category             |
-| mrp                    | Maximum Retail Price         |
-| discountPercent        | Discount Offered (%)         |
-| discountedSellingPrice | Selling Price After Discount |
-| availableQuantity      | Available Inventory          |
-| weightInGms            | Product Weight               |
-| outOfStock             | Stock Availability           |
-| quantity               | Units Per Pack               |
+| Column                 | Description                                        |
+| ---------------------- | -------------------------------------------------- |
+| Category               | Product category (Fruits, Snacks, Beverages, etc.) |
+| name                   | Product name                                       |
+| mrp                    | Maximum Retail Price                               |
+| discountPercent        | Discount percentage                                |
+| availableQuantity      | Available inventory quantity                       |
+| discountedSellingPrice | Selling price after discount                       |
+| weightInGms            | Product weight (grams)                             |
+| outOfStock             | Stock availability (TRUE/FALSE)                    |
+| quantity               | Units per package                                  |
 
 ---
 
